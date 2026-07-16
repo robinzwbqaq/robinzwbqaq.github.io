@@ -63,7 +63,6 @@ main {
 
 .intro {
   padding: 92px 0 48px;
-  border-bottom: 1px solid var(--border);
 }
 
 .kicker {
@@ -98,10 +97,6 @@ h1 {
 .publications {
   padding: 56px 0;
   scroll-margin-top: 24px;
-}
-
-.education {
-  border-bottom: 1px solid var(--border);
 }
 
 .publications {
