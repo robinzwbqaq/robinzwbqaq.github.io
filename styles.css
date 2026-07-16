@@ -94,11 +94,6 @@ h1 {
   margin-bottom: 24px;
 }
 
-.profile-links {
-  margin: 0;
-  padding-left: 40px;
-}
-
 .education,
 .publications {
   padding: 74px 0;
@@ -185,7 +180,7 @@ h3 {
 }
 
 footer {
-  padding: 28px 24px;
+  padding: 54px 24px 45px;
   color: var(--muted);
   background: var(--bar);
   border-top: 1px solid var(--border);
@@ -194,7 +189,59 @@ footer {
 }
 
 footer p {
-  margin: 0;
+  margin: 0 0 7px;
+}
+
+footer p:last-child {
+  margin-bottom: 0;
+}
+
+footer p a {
+  color: var(--muted);
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.footer-icons a {
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: #454545;
+  border-radius: 50%;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.footer-icons a:hover,
+.footer-icons a:focus-visible {
+  background: var(--link);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.footer-icons svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.footer-icons a:last-child svg {
+  fill: currentColor;
+  stroke: none;
+}
+
+.footer-contact {
+  font-size: 13px;
 }
 
 @media (max-width: 640px) {
@@ -242,8 +289,7 @@ footer p {
     font-size: 21px;
   }
 
-  .paper-list,
-  .profile-links {
+  .paper-list {
     padding-left: 24px;
   }
 
