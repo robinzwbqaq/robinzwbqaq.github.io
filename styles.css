@@ -62,7 +62,7 @@ main {
 }
 
 .intro {
-  padding: 105px 0 82px;
+  padding: 92px 0 48px;
   border-bottom: 1px solid var(--border);
 }
 
@@ -96,7 +96,7 @@ h1 {
 
 .education,
 .publications {
-  padding: 74px 0;
+  padding: 56px 0;
   scroll-margin-top: 24px;
 }
 
@@ -278,7 +278,7 @@ footer p a {
   }
 
   .intro {
-    padding: 68px 0 58px;
+    padding: 62px 0 40px;
   }
 
   h1 {
@@ -290,7 +290,7 @@ footer p a {
   }
 
   .education {
-    padding: 56px 0;
+    padding: 44px 0;
   }
 
   h2 {
