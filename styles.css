@@ -127,7 +127,7 @@ h3 {
   list-style: none;
 }
 
-.education-list li {
+.education-list article {
   display: grid;
   grid-template-columns: 155px 1fr;
   gap: 28px;
@@ -136,7 +136,7 @@ h3 {
   border-bottom: 1px solid var(--border);
 }
 
-.education-list li:last-child {
+.education-list article:last-child {
   padding-bottom: 0;
   margin-bottom: 0;
   border-bottom: 0;
@@ -157,7 +157,7 @@ h3 {
   font-weight: 700;
 }
 
-.education-list li p:last-child {
+.education-list article p:last-child {
   margin-bottom: 0;
 }
 
@@ -298,7 +298,7 @@ footer p a {
     margin-bottom: 27px;
   }
 
-  .education-list li {
+  .education-list article {
     grid-template-columns: 1fr;
     gap: 8px;
     padding-bottom: 24px;
