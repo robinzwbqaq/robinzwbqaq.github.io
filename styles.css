@@ -171,16 +171,13 @@ h3 {
   padding-left: 2px;
 }
 
-.paper-title {
-  margin-bottom: 2px;
+.paper-list p {
+  margin: 0;
 }
 
+.paper-title,
 .paper-authors {
   margin-bottom: 2px;
-}
-
-.paper-venue {
-  margin-bottom: 0;
 }
 
 footer {
